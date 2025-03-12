@@ -3,162 +3,99 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DevKTech - Aprende Informática y Ofimática</title>
+  <title>TechForKids - Aprende Informática Fácil</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<header>
-  <h1>🚀 TechForKids-DevKTech</h1>
-  <p>Tu espacio para aprender informática y ofimática desde cero. 💻✨</p>
-  <nav>
-    <ul>
-      <li><a href="#inicio">🏠 Inicio</a></li>
-      <li><a href="#cursos">📚 Cursos</a></li>
-      <li><a href="#soporte">🛠️ Soporte</a></li>
-      <li><a href="#registro">📝 Registro</a></li>
-    </ul>
-  </nav>
-</header>
+  <header>
+    <h1>🌟 TechForKids 🌟</h1>
+    <p>Clases de informática y soporte técnico para todas las edades. 💻🖱️</p>
+    <nav>
+      <ul>
+        <li><a href="#inicio">🏠 Inicio</a></li>
+        <li><a href="#cursos">📚 Cursos</a></li>
+        <li><a href="#soporte">🛠️ Soporte</a></li>
+        <li><a href="#registro">📝 Registro</a></li>
+        <li><a href="#contacto">📬 Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<main>
-  <section id="inicio">
-    <h2>¡Bienvenidos a TechForKids-DevKTech! 🎉</h2>
-    <p>Aprende de forma divertida, moderna y con apoyo personalizado. Cursos y soporte técnico a tu alcance. 🎓🔧</p>
-  </section>
+  <main>
+    <!-- INICIO -->
+    <section id="inicio">
+      <h2>¡Bienvenidos a TechForKids! 🚀</h2>
+      <p>Aprende informática desde cero con clases divertidas y adaptadas a tu ritmo. ¡Ideal para niños, adultos y mayores! 🎓👨‍🏫</p>
+      <a href="#cursos" class="cta-button">Explorar Cursos 🎮</a>
+      <a href="#soporte" class="cta-button">Solicitar Soporte ⚙️</a>
+    </section>
 
-  <!-- CURSOS -->
-  <section id="cursos">
-    <h2>💼 Nuestros Cursos</h2>
-    <p class="section-description">Explora nuestros cursos interactivos, diseñados para todas las edades. 🌈</p>
-    <div class="cursos-grid">
-
-      <!-- Teclado y Mouse -->
-      <div class="curso" data-aos="zoom-in">
-        <i class="fa-solid fa-keyboard fa-3x icono"></i>
-        <h3>🖱️ Introducción a Teclado y Mouse</h3>
-        <p>Domina las herramientas esenciales para comenzar en el mundo digital.</p>
-        <ul>
-          <li>Identificación y partes del teclado y mouse.</li>
-          <li>Postura correcta y ergonomía.</li>
-          <li>Uso básico: escribir, seleccionar, copiar y pegar.</li>
-          <li>Juegos y ejercicios prácticos para aprender jugando.</li>
-          <li>Redacción sencilla y práctica con ejemplos reales.</li>
-        </ul>
+    <!-- CURSOS -->
+    <section id="cursos">
+      <h2>🎓 Nuestros Cursos</h2>
+      <div class="cursos-grid">
+        <div class="curso">
+          <img src="img/teclado-mouse.png" alt="Teclado y Mouse" />
+          <h3>Introducción al Teclado y Mouse 🖱️⌨️</h3>
+          <p>Aprende a usar el teclado y el mouse desde cero. Juegos y ejercicios divertidos. 🎮</p>
+          <a href="#registro" class="cta-button">Inscribirse</a>
+        </div>
+        <div class="curso"><i class="fas fa-mouse-pointer"></i><h3>Introducción a la Computación 💻</h3><p>Uso básico del computador.</p><a href="#registro" class="cta-button">Inscribirse</a></div>
+        <div class="curso"><i class="fas fa-keyboard"></i><h3>Internet y Navegación Segura 🌐</h3><p>Correo, redes y seguridad.</p><a href="#registro" class="cta-button">Inscribirse</a></div>
+        <div class="curso"><i class="fas fa-file-word"></i><h3>Word y Documentos 📝</h3><p>Creación y edición de textos.</p><a href="#registro" class="cta-button">Inscribirse</a></div>
+        <div class="curso"><i class="fas fa-file-excel"></i><h3>Excel Básico 📊</h3><p>Hojas de cálculo fáciles.</p><a href="#registro" class="cta-button">Inscribirse</a></div>
+        <div class="curso"><i class="fas fa-video"></i><h3>PowerPoint Presentaciones 🎥</h3><p>Presentaciones increíbles.</p><a href="#registro" class="cta-button">Inscribirse</a></div>
       </div>
+    </section>
 
-      <!-- Computación Básica -->
-      <div class="curso" data-aos="zoom-in">
-        <i class="fa-solid fa-computer fa-3x icono"></i>
-        <h3>💻 Computación Básica</h3>
-        <p>Desde encender una PC hasta crear documentos. ¡Sin miedo a la tecnología!</p>
-        <ul>
-          <li>Partes y funciones de la computadora.</li>
-          <li>Encendido, apagado y uso seguro.</li>
-          <li>Organización de archivos y carpetas.</li>
-          <li>Instalación y uso de programas básicos.</li>
-          <li>Creación y gestión de documentos y carpetas.</li>
-          <li>Uso básico del navegador de internet.</li>
-        </ul>
-      </div>
+    <!-- SOPORTE -->
+    <section id="soporte">
+      <h2>🛠️ Soporte y Mantenimiento</h2>
+      <p>¿Problemas con tu equipo? 💻 Te ayudamos con soporte remoto o presencial.</p>
+      <form action="https://formspree.io/f/mpwpzjjl" method="POST">
+        <input type="text" name="Nombre completo" placeholder="Nombre completo" required>
+        <input type="email" name="Correo" placeholder="Correo electrónico" required>
+        <input type="tel" name="Teléfono" placeholder="Número de teléfono" required>
+        <textarea name="Mensaje" placeholder="Describe tu problema" required></textarea>
+        <button type="submit" class="cta-button">Solicitar Ayuda 🛠️</button>
+      </form>
+    </section>
 
-      <!-- Internet y Seguridad -->
-      <div class="curso" data-aos="zoom-in">
-        <i class="fa-solid fa-globe fa-3x icono"></i>
-        <h3>🌐 Internet y Seguridad</h3>
-        <p>Todo lo que necesitas saber para navegar con confianza.</p>
-        <ul>
-          <li>Introducción a internet y cómo funciona.</li>
-          <li>Correo electrónico: crear, enviar y recibir.</li>
-          <li>Búsquedas efectivas y seguras.</li>
-          <li>Redes sociales: Facebook, WhatsApp y más.</li>
-          <li>Protección de datos personales y contraseñas.</li>
-          <li>Detectar y evitar fraudes y virus.</li>
-        </ul>
-      </div>
+    <!-- REGISTRO -->
+    <section id="registro">
+      <h2>📝 Registro de Cursos</h2>
+      <form action="https://formspree.io/f/mpwpzjjl" method="POST">
+        <input type="text" name="Nombre completo" placeholder="Nombre completo" required>
+        <input type="email" name="Correo" placeholder="Correo electrónico" required>
+        <input type="tel" name="Teléfono" placeholder="Número de teléfono" required>
+        <select name="Curso" required>
+          <option value="">Elige un curso</option>
+          <option value="Introducción al Teclado y Mouse">Introducción al Teclado y Mouse</option>
+          <option value="Introducción a la Computación">Introducción a la Computación</option>
+          <option value="Internet y Navegación Segura">Internet y Navegación Segura</option>
+          <option value="Word y Documentos">Word y Documentos</option>
+          <option value="Excel Básico">Excel Básico</option>
+          <option value="PowerPoint Presentaciones">PowerPoint Presentaciones</option>
+        </select>
+        <textarea name="Mensaje" placeholder="Déjanos un mensaje (opcional)"></textarea>
+        <button type="submit" class="cta-button">Registrar 📥</button>
+      </form>
+    </section>
+  </main>
 
-      <!-- Word Profesional -->
-      <div class="curso" data-aos="zoom-in">
-        <i class="fa-solid fa-file-word fa-3x icono"></i>
-        <h3>📝 Word Profesional</h3>
-        <p>Documentos, informes y cartas que impresionan.</p>
-        <ul>
-          <li>Introducción a Microsoft Word.</li>
-          <li>Formato y diseño de texto.</li>
-          <li>Uso de tablas, imágenes y gráficos.</li>
-          <li>Creación de cartas, informes y documentos formales.</li>
-          <li>Currículum Vitae profesional paso a paso.</li>
-          <li>Plantillas prediseñadas y cómo personalizarlas.</li>
-        </ul>
-      </div>
-
-      <!-- Excel Básico -->
-      <div class="curso" data-aos="zoom-in">
-        <i class="fa-solid fa-file-excel fa-3x icono"></i>
-        <h3>📊 Excel Básico</h3>
-        <p>Gestiona tus datos como un experto.</p>
-        <ul>
-          <li>Introducción y entorno de trabajo de Excel.</li>
-          <li>Creación de tablas y hojas de cálculo.</li>
-          <li>Fórmulas y funciones básicas.</li>
-          <li>Gráficos dinámicos y tablas visuales.</li>
-          <li>Plantillas de presupuestos y listas automáticas.</li>
-          <li>Consejos para mejorar la productividad con Excel.</li>
-        </ul>
-      </div>
-
-      <!-- PowerPoint Creativo -->
-      <div class="curso" data-aos="zoom-in">
-        <i class="fa-solid fa-file-powerpoint fa-3x icono"></i>
-        <h3>🎥 PowerPoint Creativo</h3>
-        <p>Presentaciones impactantes para trabajo y escuela.</p>
-        <ul>
-          <li>Introducción a PowerPoint.</li>
-          <li>Diseño de diapositivas atractivas.</li>
-          <li>Uso de animaciones y transiciones.</li>
-          <li>Inserción de imágenes, videos y gráficos.</li>
-          <li>Consejos para hablar en público y presentar.</li>
-          <li>Plantillas para presentaciones profesionales.</li>
-        </ul>
-      </div>
-
+  <footer>
+    <p>&copy; 2024 TechForKids. Todos los derechos reservados. 🌈</p>
+    <div class="social-links">
+      <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
     </div>
-  </section>
+  </footer>
 
-  <!-- SOPORTE -->
-  <section id="soporte" data-aos="zoom-in">
-    <h2>🛠️ Soporte Técnico</h2>
-    <p>Instalación, mantenimiento, limpieza y eliminación de virus. Soporte presencial y remoto.</p>
-    <div class="soporte-contacto">
-      <a href="https://wa.me/+5212312924426" class="cta-button">¡Habla con nosotros! 💬</a>
-    </div>
-  </section>
-
-  <!-- REGISTRO -->
-  <section id="registro" data-aos="zoom-in">
-    <h2>📝 Inscripción a Cursos</h2>
-    <form action="https://formspree.io/f/mpwpzjjl" method="POST">
-      <input type="text" name="Nombre completo" placeholder="Nombre completo" required>
-      <input type="email" name="Correo" placeholder="Correo electrónico" required>
-      <input type="tel" name="Teléfono" placeholder="Número de teléfono" required>
-      <button type="submit" class="cta-button">¡Inscribirme Ahora! ✅</button>
-    </form>
-  </section>
-</main>
-
-<!-- WhatsApp Float -->
-<a href="https://wa.me/+5212312924426" class="whatsapp-float" target="_blank" title="Chatea con nosotros">
-  <i class="fab fa-whatsapp"></i>
-</a>
-
-<!-- AOS Library -->
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
+  <a href="https://wa.me/2312924426?text=Hola, quiero más información sobre los cursos" target="_blank" class="whatsapp-button"><i class="fab fa-whatsapp"></i> ¡Chatea con nosotros!</a>
 
 </body>
 </html>
